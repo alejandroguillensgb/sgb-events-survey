@@ -1,0 +1,24 @@
+<ion-view mz-screen cache-view="false" hide-back-button="true" view-title="{{'survey_title' | translate}}">
+    <ion-content>
+        <div class="questionsBlock">
+            <div class="list card opaque" ng-repeat="question in surveyInfo.outputQuestions" ng-show="question.active">
+                <div class="item item-divider item-text-wrap">
+                    <h2>{{ question.question }}</h2>
+                </div>
+                <ion-radio ng-repeat="option in question.questionOptionCollection"
+                           name="{{ question.questionId }}"
+                           ng-click="optionSelected(question.questionId, option.optionId)"
+                    	   icon="ion-checkmark-round">
+                    {{ option.option }}
+                </ion-radio>
+            </div>
+        </div>
+        <div class="row row-center">
+            <div class="col text-center buttonContainer">
+                <button nav-clear class="button button-block buttonSubmit" type="button" ng-click="showAlert()" ng-disabled="!isOptionSelected()">
+                    {{'send' | translate}}
+                </button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

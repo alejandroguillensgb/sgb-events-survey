@@ -1,0 +1,8 @@
+//Define any sass variables and styles here.
+//They may be overridden by the application using the screen.
+
+$myColor: #00dda0;
+
+.customHeader {
+  color: $myColor;
+}

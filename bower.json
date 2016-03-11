@@ -1,0 +1,23 @@
+{
+  "name": "sgb-events-survey",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SYNERGY-GB/sgb-events-survey",
+  "authors": [
+    "Megazord <megazord@synergy-gb.com>"
+  ],
+  "main": "dist/sgb-events-survey.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Propietary",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "megazord-framework": "git@github.com:SYNERGY-GB/megazord-framework.git#1.0"
+  }
+}

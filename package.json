@@ -1,0 +1,23 @@
+{
+  "name": "sgb-events-survey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SYNERGY-GB/sgb-events-survey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SYNERGY-GB/sgb-events-survey/issues"
+  },
+  "homepage": "https://github.com/SYNERGY-GB/sgb-events-survey",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "megazord-sdk": "git+ssh://git@github.com:SYNERGY-GB/megazord-sdk.git#1.0"
+  }
+}
